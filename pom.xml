@@ -103,13 +103,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.surefire.plugin.version}</version>
                 <!--Only use when we need Junit execution-->
-                <configuration>
-                    <parallel>methods</parallel>
-                    <threadCount>5</threadCount>
-                    <includes>
-                        <include>JunitRunner.java</include>  <!-- Match your class -->
-                    </includes>
-                </configuration>
+<!--                <configuration>-->
+<!--                    <parallel>methods</parallel>-->
+<!--                    <threadCount>5</threadCount>-->
+<!--                    <includes>-->
+<!--                        <include>JunitRunner.java</include>  &lt;!&ndash; Match your class &ndash;&gt;-->
+<!--                    </includes>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
